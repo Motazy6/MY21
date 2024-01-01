@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#b5b38b"
+    >
+
+
+    <ImageView
+
+        android:id="@+id/logo_T"
+        android:layout_width="155dp"
+        android:layout_height="235dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="60dp"
+        android:src="@drawable/img_1"
+
+        />
+
+    <ImageView
+        android:id="@+id/logo_travel"
+        android:layout_width="197dp"
+        android:layout_height="103dp"
+        android:layout_centerVertical="true"
+
+        android:layout_marginLeft="180dp"
+        android:src="@drawable/img"
+
+        />
+
+
+</RelativeLayout>

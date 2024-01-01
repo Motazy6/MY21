@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b4b28a"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="167dp"
+
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/img_19"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="log in with Email"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#c40f0e"
+        />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+
+
+        />
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="10dp"
+        android:password="true"
+        android:hint="passwrod"
+
+
+        />
+
+
+    <CheckBox
+
+        android:id="@+id/rememberMeCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="remember Username"
+        android:onClick="rememberMe"
+        android:textColor="#c40f0e"
+        android:layout_marginStart="48dp"
+
+        />
+    <Button
+        android:id="@+id/showpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:backgroundTint="#b4b28a"
+        android:text="o Show password"
+        android:textColor="#c40f0e" />
+
+    <Button
+
+        android:id="@+id/signIN"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        android:layout_marginTop="6dp"
+        android:layout_marginStart="55dp"
+        android:backgroundTint="#c40f0e"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Don't have an account?"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+
+        />
+
+    <Button
+        android:id="@+id/signUP"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#f4e9df"
+        android:text="sign up now"
+        android:textColor="#c50f0e"
+        android:textStyle="bold"
+
+
+        />
+
+
+
+
+
+
+</LinearLayout>

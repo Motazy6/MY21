@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#b4b28a"
+    tools:context=".TranslateActivity">
+    <TextView
+        android:layout_width="225dp"
+        android:layout_height="102dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Translate"
+        android:textSize="36dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        />
+
+
+    <Spinner
+
+        android:id="@+id/sp"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="55dp"
+
+        />
+
+
+    <EditText
+        android:id="@+id/ed_s"
+        android:layout_marginTop="6dp"
+        android:layout_width="327dp"
+        android:layout_height="135dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+
+        />
+
+
+
+    <Spinner
+        android:id="@+id/sp2"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="55dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_marginTop="6dp"
+        android:layout_width="327dp"
+        android:layout_height="135dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        />
+
+
+
+    <Button
+        android:id="@+id/btn_tran"
+        android:layout_width="94dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="translate"
+        android:backgroundTint="#b4b28a"
+        android:drawableLeft="@drawable/translate"
+
+        />
+
+
+
+</LinearLayout>
